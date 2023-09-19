@@ -1,0 +1,16 @@
+{
+  "name": "@thomasrockhu-codecov/better-testing/test-doubles/expensive-function",
+  "version": "0.0.1",
+  "description": "Expensive Function Test Doubles Example",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  },
+  "dependencies": {
+    "td": "^0.4.0",
+    "testdouble": "^3.19.0",
+    "testdouble-jest": "^2.0.0"
+  }
+}
