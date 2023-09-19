@@ -1,7 +1,13 @@
 {
-  "name": "@codecov/example-javascript",
+  "name": "@thomasrockhu-codecov/better-testing/mutation-testing",
   "version": "0.0.1",
-  "description": "Codecov Example Javascript",
-  "scripts": {},
-  "dependencies": {}
+  "description": "Mutation testing example",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@stryker-mutator/core": "^7.1.1",
+    "@stryker-mutator/jest-runner": "^7.1.1",
+    "jest": "^29.7.0"
+  }
 }

@@ -1,7 +1,11 @@
 {
-  "name": "@codecov/example-javascript",
+  "name": "@thomasrockhu-codecov/better-testing/code-coverage",
   "version": "0.0.1",
-  "description": "Codecov Example Javascript",
-  "scripts": {},
-  "dependencies": {}
+  "description": "Code coverage example",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

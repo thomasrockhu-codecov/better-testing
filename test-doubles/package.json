@@ -1,0 +1,14 @@
+{
+  "name": "@thomasrockhu-codecov/better-testing/test-doubles",
+  "version": "0.0.1",
+  "description": "Test doubles example",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "undici": "^5.24.0"
+  }
+}
