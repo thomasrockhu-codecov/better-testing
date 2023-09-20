@@ -9,7 +9,6 @@ const calculator = require('./calculator');
 jest.setTimeout(20_000);
 
 test('add function with network mock', async () => {
-/*
   const mockAgent = new MockAgent();
   setGlobalDispatcher(mockAgent);
 
@@ -18,7 +17,6 @@ test('add function with network mock', async () => {
       path: '/api/add',
       method: 'POST',
     }).reply(200, 3);
-*/
 
   expect(await calculator.add(1, 2)).toBe(3);
 });
